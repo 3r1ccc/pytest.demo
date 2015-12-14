@@ -6,22 +6,22 @@ run all tests:
 
 run all tests except: 
 ---------------------
-	py.test tests
+	py.test tests ?
 
 run all tests with webtest mark:
 --------------------------------
 	py.test -v -m webtest
 
-run a set of tests based on their names (has answer in them)
-------------------------------------------------------------
+run a set of tests based on their names (has "answer" in them)
+--------------------------------------------------------------
 	py.test -v -k answer
 
-run a set of tests based on their names (don't answer in them)
-------------------------------------------------------------
+run a set of tests based on their names (don't has the word "answer" in them)
+-----------------------------------------------------------------------------
 	py.test -v -k "not answer"
 
 run a single module: 
-------------------------------------------------------------
+--------------------
 	py.test tests/sms/test_4.py
 
 run a single test
