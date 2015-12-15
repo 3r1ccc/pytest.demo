@@ -1,3 +1,11 @@
+Installation of dependency
+==========================
+python setup.py install
+or 
+pip -r install requirements.txt
+
+
+
 Running Tests
 =============
 run all tests: 
