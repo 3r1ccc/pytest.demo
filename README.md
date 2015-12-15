@@ -117,3 +117,4 @@ Add this to setup.py
 	pip install pytest-ordering
 	pip install pytest-variables
 	pip install pytest-html
+	pip install python-virtualenv
