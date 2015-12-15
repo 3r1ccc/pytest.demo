@@ -1,8 +1,8 @@
 Installation of dependency
 ==========================
-python setup.py install
-or 
-pip -r install requirements.txt
+	python setup.py install
+	or 
+	pip -r install requirements.txt
 
 
 
