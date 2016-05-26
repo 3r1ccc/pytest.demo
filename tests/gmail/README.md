@@ -9,7 +9,7 @@ Setup for Test
 Create an AVD
 -------------
 	Create an AVD created and run it.
-        Install Gmail from http://opengapps.org/
+	Install Gmail from http://opengapps.org/
 
 Run check of appium-doctor
 --------------------------
