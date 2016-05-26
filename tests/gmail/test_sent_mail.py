@@ -3,6 +3,7 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 import datetime
+import re
 
 success = True
 desired_caps = {}
@@ -45,24 +46,23 @@ def test_sent_gmail():
 	wd.find_element_by_id("Send").click()
 
         # check current time
-        current_time=datetime.datetime.now()
-        print(current_time)
+        click_time=datetime.datetime.now()
 
-        # verification
+        # find text for verification
        	wd.find_element_by_id("Apps").click()
 	wd.find_element_by_id("Gmail").click()
         wd.find_element_by_id("Navigate up").click()
 	wd.find_element_by_xpath(xpath_sent_mail).click()
+        time.sleep(1)
+        summary=wd.find_element_by_xpath(xpath_desc).get_attribute("name")
 
-        tt=wd.find_element_by_xpath(xpath_desc).get_attribute("name")
-        time.sleep(5)
-
+        # check current time
         current_time=datetime.datetime.now()
-        print(current_time)
-        print("---")
-        print(tt)
-        print("---")
 
+        # verification
+        assert string_subject in summary
+        assert string_email_body in summary
+        # TBD: add check for time of sent mail, should be quite close to current_time
 
     finally:
 	wd.quit()
