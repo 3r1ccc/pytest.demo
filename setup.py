@@ -22,5 +22,5 @@ setup(name='qtest',
       description="pytest demo",
       long_description=description,
       author='eric.chang',
-      author_email='eric.chang@acadine.com',
+      author_email='cateyeatlas@gmail.com',
       install_requires=deps)
