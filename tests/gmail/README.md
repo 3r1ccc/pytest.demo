@@ -10,6 +10,7 @@ Create an AVD
 -------------
 	Create an AVD created and run it.
 	Install Gmail from http://opengapps.org/
+        Sign in an Gmail in Gmail app
 
 Run check of appium-doctor
 --------------------------
@@ -17,7 +18,7 @@ Run check of appium-doctor
 
 Run Appium
 ----------
-	Appium configured(using the testGmail.appiumconfig) and running
+	Appium configured(using the testGmail.appiumconfig) and launch a server
 
 Test
 ====
@@ -25,8 +26,8 @@ Clone this github
 -----------------
 	$git clone https://github.com/3r1ccc/pytest.demo.git
 
-Create an virtualenv
---------------------
+Create and run an virtualenv
+----------------------------
 	$virtualenv ss	
 	$source ss/bin/activate
 
