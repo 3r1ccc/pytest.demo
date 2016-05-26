@@ -10,7 +10,7 @@ Create an AVD
 -------------
 	Create an AVD created and run it.
 	Install Gmail from http://opengapps.org/
-        Sign in an Gmail in Gmail app
+	Sign in an Gmail account in Gmail app
 
 Run check of appium-doctor
 --------------------------
