@@ -1,37 +1,40 @@
 Environment
 ===========
-        Mac OSX 10.11.5 used
+	Mac OSX 10.11.5 used
 	Install Android SDK
-        Install Appium
+	Install Appium
 
 Setup for Test
 ==============
 Create an AVD
 -------------
-	An AVD created and running
+	Create an AVD created and run it.
+        Install Gmail from http://opengapps.org/
 
 Run check of appium-doctor
 --------------------------
+	appium-doctor is missing from 1.5.2 binary, get it from github
 
 Run Appium
 ----------
-	Appium configured and running
-
+	Appium configured(using the testGmail.appiumconfig) and running
 
 Test
 ====
 Clone this github
 -----------------
+	$git clone https://github.com/3r1ccc/pytest.demo.git
 
 Create an virtualenv
 --------------------
-	and activate it
+	$virtualenv ss	
+	$source ss/bin/activate
 
 Installation of py.test dependency
 ----------------------------------
-	python setup.py install
+	$python setup.py install
 	or 
-	pip -r install requirements.txt
+	$pip -r install requirements.txt
 
 
 Run testGmail
