@@ -1,3 +1,5 @@
 pytest-ordering==0.4
 pytest-variables==1.2
 pytest-html==1.7
+Appium-Python-Client==0.22
+selenium==2.53.2
