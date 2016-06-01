@@ -1,8 +1,9 @@
 Environment
 ===========
 	Mac OSX 10.11.5 used
-	Install Android SDK
-	Install Appium
+	Install Java/jdk-8u91-macosx-x64.dmg
+	Install Android SDK/android-studio-ide-143.2821654-mac.dmg
+	Install Appium/appium-1.5.2.dmg
 
 Setup for Test
 ==============
