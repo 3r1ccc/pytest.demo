@@ -34,7 +34,7 @@ def test_sent_gmail():
         xpath_sent_mail="//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[7]"
         xpath_desc="//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.FrameLayout[1]/android.view.View[1]/android.widget.FrameLayout[1]/android.widget.ListView[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]"
 
-        string_recipient_email="29deuxieme@gmail.com"
+        string_recipient_email="foxfantasticfox@gmail.com"
         string_subject="Verify sending email"
         string_email_body="Hello, this is a test from the testing script."
 
